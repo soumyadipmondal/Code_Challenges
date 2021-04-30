@@ -1,0 +1,9 @@
+h1{
+    color:blue
+}
+
+div.image{
+    background: url("./assets/7-2-cartoon-picture.jpg");
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "code_challenges",
+  "version": "1.0.0",
+  "description": "code_challenges_series",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyadipmondal/Code_Challenges.git"
+  },
+  "author": "SoumyadipMondal_LinkedInLearning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumyadipmondal/Code_Challenges/issues"
+  },
+  "homepage": "https://github.com/soumyadipmondal/Code_Challenges#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.2.4",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
