@@ -4,7 +4,7 @@
   "description": "code_challenges_series",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -w",
+    "build": "webpack",
     "start": "webpack serve"
   },
   "repository": {
@@ -26,6 +26,7 @@
     "babel-loader": "^8.2.2",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
     "path": "^0.12.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

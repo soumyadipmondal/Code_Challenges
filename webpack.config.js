@@ -1,12 +1,23 @@
 const { Server } = require('http');
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: {
+        main: "./src/index.js",
+        about : "./src/about.js",
+        contact: "./src/contact.js"
+    },
     output:{
-        filename:"main.js",
+        filename:"[name].bundle.js",
         path:path.resolve(__dirname, "dist")
     },
+    /* plugins:[new HtmlWebpackPlugin()], */
+    /* optimization:{
+        splitChunks: {
+            chunks: 'all'
+        }
+    }, */
     devServer:{
         contentBase:path.join(__dirname, "dist"),
         port: 9000
