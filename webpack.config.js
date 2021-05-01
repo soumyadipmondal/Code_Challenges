@@ -1,6 +1,7 @@
 const { Server } = require('http');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyWebpackPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -18,6 +19,9 @@ module.exports = {
             chunks: 'all'
         }
     }, */
+    optimization:{
+        minimizer: [new UglifyWebpackPlugin()]
+    },
     devServer:{
         contentBase:path.join(__dirname, "dist"),
         port: 9000
